@@ -19,5 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('options_app.urls')),
+    # path('api/', include('options_app.urls')),  # Temporarily disabled
+    path('', include('task_tracker.urls')),  # Make task tracker the default homepage
 ]

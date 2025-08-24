@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'options_app'
+    # 'options_app',  # Temporarily disabled
+    'task_tracker'
 ]
 
 MIDDLEWARE = [
